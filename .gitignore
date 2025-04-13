@@ -3,5 +3,7 @@
 
 # Ignore all PDF files
 *.pdf
+*.JPEG
+*.JPG
 
 images/
