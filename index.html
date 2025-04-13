@@ -7,50 +7,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
-			/* Shifting everything to the right */
-			#wrapper {
-				margin-left: 300px; /* Adjust this value to shift content further right */
-			}
-
-			/* Media query for smaller screen sizes */
-			@media screen and (max-width: 768px) {
-				#wrapper {
-					margin-left: 200px; /* Adjust the margin for smaller screens */
-				}
-			}
-
-			#resume-button-container {
-				position: fixed;
-				top: 20px;
-				right: 20px;
-				z-index: 1000;
-			}
-
-			.resume-button {
-				background-color: hsl(270, 100%, 50%);
-				color: white;
-				text-decoration: none;
-				padding: 10px 20px;
-				border-radius: 5px;
-				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-				transition: background-color 0.3s ease;
-			}
-
-			.resume-button:hover {
-				background-color: #0056b3;
-			}
-
-			/* Adjust sidebar width */
-			#sidebar {
-				width: 200px; /* Set the desired width */
-			}
-
-			/* Media query for smaller screen sizes */
-			@media screen and (max-width: 768px) {
-				#sidebar {
-					width: 150px; /* Smaller width for mobile or tablet */
-				}
-			}
+			
+			/* TODO: when the #sidebar {width: flex;} and the screen width is small, set this to top: 80px - joshua*/
 
 			.image-container {
 				display: flex; /* Align items horizontally */
@@ -67,8 +25,10 @@
 				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
 			}
 			.dp {
-				position: absolute;
-				top: 10%;
+				/* position: absolute; */
+				position: flex;
+				padding-top: 4em;
+				/* top: 10%; */
 
 			}
 		</style>
@@ -77,7 +37,7 @@
 
 		<!-- Download Resume Button -->
 		<div id="resume-button-container">
-			<a href="Update_Resume.pdf" download="Resume_Hasan_Al_Zafir.pdf" class="button resume-button">Download Resume</a>
+			<a href="Update_Resume.pdf" download="Resume_Hasan_Al_Zafir.pdf" class="button resume-button ">Download Resume</a>
 		</div>
 
 		<!-- Sidebar -->
@@ -101,8 +61,8 @@
 				<img src="./images/Me01.png" alt="Hasan Al Zafir" style="max-width: 300px; border-radius: 50%; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
 			</div>
 			<div class="inner" style="flex: 2;">
-				<br><br><br><br><br><br><br><br><br>
-				<br><br><br><br><br><br><br><br><br>
+				<!-- <br><br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br><br> -->
 				<h1>Hasan's Portfolio</h1>
 				<p>I am Hasan Al Zafir, currently a junior pursuing a Bachelor's degree in Mechanical Engineering at the University of Minnesota. My primary interests lie in robotics, automation, and the design and optimization of mechanical systems. I am passionate about leveraging advanced tools like CAD and simulation software to bring innovative ideas to life. I also enjoy exploring areas like control systems, dynamics, and manufacturing processes, constantly seeking opportunities to expand my technical expertise and problem-solving skills.</p>
 				<p>This website provides an overview of various work experiences, projects, and related activities that I have done since the start of my Bachelor's program.</p>
@@ -206,7 +166,7 @@
 				<!-- Image Container with Flexbox -->
 				<div class="image-container">
 					<div class="image-item">
-						<img src="./images/p01.JPEG" alt="Photography 1" />
+						<img src="./images/p01.JPEG" alt="Photography 1" /> <!-- this alt tag is like a caption that will only be shown if our image somehow fails to load. the normal best practise is to actually give some caption to your image to verbally describe your image in case it cant load-->>
 					</div>
 					<div class="image-item">
 						<img src="./images/p04.JPG" alt="Photography 2" />
