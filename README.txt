@@ -34,5 +34,5 @@ Credits:
 
 ## new updates:
 ### sidebar scaling bug demo fix
-https://github.com/user-attachments/assets/2c05d144-1dad-43fb-bfcf-796c572e3051 
+https://github.com/user-attachments/assets/7d741ade-0be2-463d-bd92-020e2291102f
 
