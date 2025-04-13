@@ -33,6 +33,4 @@ Credits:
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 
 
-## new updates:
-### sidebar scaling bug demo fix
-https://github.com/user-attachments/assets/2c05d144-1dad-43fb-bfcf-796c572e3051
+
