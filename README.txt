@@ -36,3 +36,5 @@ Credits:
 ### sidebar scaling bug demo fix
 https://github.com/user-attachments/assets/7d741ade-0be2-463d-bd92-020e2291102f
 
+![](/sidebar%20resize%20bug%20fixed%20demo.mp4)
+
